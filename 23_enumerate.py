@@ -18,7 +18,7 @@ for mark in marks:
 
 # now by using enumerate function
 
-# for mark,index in enumerate(marks,start=0):
-#     print(mark)
-#     if(index==6):
-#         print("nice viresh")     #this is using enumerate function
+for mark,index in enumerate(marks,start=0):
+    print(mark)
+    if(index==6):
+        print("nice viresh")     #this is using enumerate function
