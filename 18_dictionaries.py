@@ -5,7 +5,7 @@
 info = {  "name" : "viresh", "age" : 18 , "std" : 8   }
 print(info["age"])
 print(info["std"])
-
+print(info["std"])
 
 print(info.keys())       # name , age , std are keys
 
