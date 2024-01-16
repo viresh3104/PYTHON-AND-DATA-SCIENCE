@@ -11,3 +11,7 @@ print("b+c=",b+c)
 d = input("enter a number:")
 e = input("enter another number:")
 print("d+e=",int("%d")+int("%e"))
+
+# a = int(input("enter a number:"))
+# b = int(input("enter a number:"))
+# print("a+b=",a+b)      #this is also one way
