@@ -15,4 +15,4 @@ avg = lambda x , y ,z : print((x+y+z)/3)
 avg(1,2,3)
 
 # checking git status 
-# hi this is omkar and i am gchecking git stat
+# hi this is omkar and i am gchecking git stat 
