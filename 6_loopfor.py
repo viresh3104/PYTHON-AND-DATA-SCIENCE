@@ -27,10 +27,24 @@ for names in friends:
 # for loop for a specific number of times?
 # Here, we can use the range() function
 for p in range(6):    #this is aslo writeen as (0,6)
-    print(p) 
+    print(p)
 
 for q in range(1,9):
     print("q::",q)
 
 for r in range(3,20,2): #check logic (startvalue, stop value, steps)
     print("r:::",r)
+
+
+
+# to use for loop on dictonary we have to use .items after  dictionary  name
+
+marks = {
+            'math' : 50,
+            'english': 45,
+            'hindi'  : 49
+}
+
+
+for key, value in marks.items():
+    print(key + " : " + str(value))
