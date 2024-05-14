@@ -1,12 +1,4 @@
-# learning data analysis with pandas
-        # Find min and max salary
-        # Find data of employee with
-        #    Emp_id 105
-        #    Max salary
-        # Find total & average salary of employees
-        # Print full name of employee id 103
-
-
+# learning data analysis with panda
 import pandas 
 
 # Print the csv file
@@ -59,9 +51,6 @@ print(data)          #here data of leena is wiped out whic is at 6th index
 print("#"*50)
 data = data.drop(" desig" , axis=1)
 print(data)           #this will remove desig column from our dataset
-
-
-
 
 
 
