@@ -45,7 +45,7 @@ index_number = data.index[data.emp_id == 107][0]
 print("finding index number :: ",index_number)
 # now we will learn how to delete all the data from that index
 print("#"*50)
-data = data.drop(6)
+data = data.drop(6)                            #here 6 is a index number
 print(data)          #here data of leena is wiped out whic is at 6th index
 # this will drop whole row for that index , now we'll learn how to delete a sngle coloum , here we are deleting desig coloum
 print("#"*50)

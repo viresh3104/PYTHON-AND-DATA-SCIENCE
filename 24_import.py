@@ -19,8 +19,8 @@ from math import *
 
 import math as m
 
-# Python has a built-in function called dir that you can use to view the names of 
-# all the functions and variables defined in a module. 
+# Python has a built-in function called dir that you can use to view the names of  all the functions and
+# variables defined in a module. 
 # This can be helpful for exploring and understanding the contents of a new module.
 
 print(dir(math))

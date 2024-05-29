@@ -7,7 +7,7 @@ dfg = (4)     # this is not tuple, this is int,
 #  if we want to add single element to the tuple we have to add comma at the end of it : dfg=(4,) 
 
 
-# tuples are same as list but the main difference is we can cange the list but cant change the tuple
+# tuples are same as list but the main difference is we can change the list but cant change the tuple
 
 countries =("india","china","nepal","bhutan")
 # now in this countries tuple we have to add pakistan but we cant add it directly

@@ -13,7 +13,7 @@ for _ in range(100):
     # Select a random color
     color = random.choice(colors)
     # Print "I love you" in the selected color
-    print(color + "I love you so so so much mani")
+    print(color + "I love you so so so much")
     # Pause for a short time to display each "I love you" one by one
     time.sleep(0.1)
 

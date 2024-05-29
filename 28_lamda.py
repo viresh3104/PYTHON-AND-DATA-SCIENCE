@@ -13,6 +13,3 @@ double = lambda x : x*2
 # we can also write multiple values in lambda function
 avg = lambda x , y ,z : print((x+y+z)/3) 
 avg(1,2,3)
-
-# checking git status 
-# hi this is omkar and i am gchecking git stat 

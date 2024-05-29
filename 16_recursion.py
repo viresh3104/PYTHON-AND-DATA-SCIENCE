@@ -18,7 +18,8 @@ print(factorial(5))
 # In Python, we know that a function can call other functions. 
 # It is even possible for the function to call itself.
 # These types of construct are termed as recursive functions.
-# in this example we are using factorial function inside factorial function , bs yahi toh hai rucursion
+# in this example we are using factorial function inside factorial function ,
+# bs yahi toh hai rucursion ki ak func khudko hi call krta hai.
 
 
     

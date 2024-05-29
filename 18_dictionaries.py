@@ -2,7 +2,7 @@
 # they can multiple values in sigle variable
 # values are seprared by commnas and enclosed with in curly brackets{}
 
-info = {  "name" : "viresh", "age" : 18 , "std" : 8   }
+info = {  "name" : "viresh", "age" : 18 , "std" : 8  }
 print(info["age"])
 print(info["std"])
 print(info["std"])

@@ -18,7 +18,7 @@ AVG()        #in this case input is not provided so function use default values 
 AVG(2,8)     #but here values are provided so default values are ignored
 
 
-#lets se one more example of default argument
+#lets see one more example of default argument
 
 def name(firstname,middlename="somnath",lastname="navtake"):
     print("hello",firstname,middlename,lastname)
