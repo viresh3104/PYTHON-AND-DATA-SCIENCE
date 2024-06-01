@@ -2,9 +2,5 @@
 
 dict_1 = {1:"a" , 2:"b"}
 
-def printing_dict(dict):
-    for key , value in dict.items():
-        print(key ,":", value)
-
-
-print(printing_dict(dict_1))
+for a,b in dict_1.items():
+    print(a,b)
