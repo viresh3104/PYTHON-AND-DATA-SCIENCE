@@ -1,9 +1,21 @@
-n = int(input())
-arr = list(map(int,input().split(",")))
-max_element = max(arr)
-pop = arr.pop(arr.index(max_element))
-arr1 = arr
-max_element_in_arr_1 = max(arr1)
-print(max_element_in_arr_1)
+import random as rand
 
-# max = max(arr)
+
+number_of_plain_balls = rand.randint(1,50)
+coloured_balls_list = []
+
+
+
+for each_plain_ball in range(0 ,(number_of_plain_balls)+1):
+    choice_of_colour_for_plain_balls = rand.choice(['Red','Blue','Green'])               #these choices are used 
+    coloured_balls_list.append(choice_of_colour_for_plain_balls)                                                             #and choices are append to the empty list we have created
+
+print(coloured_balls_list)
+
+###############################step:1 creating basket done############################
+
+dictionary_to_maintain_the_counter_of_colour = {'Red' :0 , 'Green' : 0 , 'Blue' : 0}
+for each_coloured_ball in coloured_balls_list:
+    dictionary_to_maintain_the_counter_of_colour[each_coloured_ball] += 1
+print(dictionary_to_maintain_the_counter_of_colour)
+
