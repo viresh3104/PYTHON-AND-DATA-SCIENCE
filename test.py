@@ -7,12 +7,10 @@ coloured_balls_list = []
 
 
 for each_plain_ball in range(0 ,(number_of_plain_balls)+1):
-    choice_of_colour_for_plain_balls = rand.choice(['Red','Blue','Green'])               #these choices are used 
-    coloured_balls_list.append(choice_of_colour_for_plain_balls)                                                             #and choices are append to the empty list we have created
+    choice_of_colour_for_plain_balls = rand.choice(['Red','Blue','Green'])          
+    coloured_balls_list.append(choice_of_colour_for_plain_balls)                        
 
 print(coloured_balls_list)
-
-###############################step:1 creating basket done############################
 
 dictionary_to_maintain_the_counter_of_colour = {'Red' :0 , 'Green' : 0 , 'Blue' : 0}
 for each_coloured_ball in coloured_balls_list:
